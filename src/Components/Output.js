@@ -18,7 +18,7 @@ const Output = ({
       <div className="output">
         <p className="text">
           {value} {currency} is equal to{" "}
-          {(value / conversion / conversionCurrency).toFixed(5)} {selection}
+          {(value / conversion / conversionCurrency).toFixed(7)} {selection}
         </p>
       </div>
     );
@@ -46,6 +46,10 @@ const Output = ({
         <p>Please select a Currency and enter an Amount</p>
       </div>
     );
+  } else if (selection == "Select" && conversionCurrency && value) {
+    <div className="output">
+      <p>Please select a CryptoCurrency and enter an Amount</p>
+    </div>;
   } else if (selection && conversionCurrency) {
     return (
       <div className="output">
