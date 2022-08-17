@@ -1,0 +1,69 @@
+body {
+  overflow: hidden;
+}
+
+.App {
+  background-color: rgb(42, 41, 41);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.Header {
+  text-align: center;
+  color: white;
+  font-size: 150%;
+}
+.Footer {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  /* margin-left: auto;
+  margin-right: auto; */
+  height: 2.5rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+.form-word {
+  text-align: center;
+  /* width: 20em;
+  height: 3em; */
+  font-size: 50px;
+  border-radius: 10px;
+  border-color: white;
+  background-color: rgb(42, 41, 41);
+  color: white;
+}
+
+.selection-crypto {
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+}
+
+.crypto-bar {
+  text-align: center;
+  height: 75px;
+  width: 150px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(42, 41, 41);
+  border-width: 3px;
+}
+
+.output {
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  font-size: 35px;
+}
+
+.currency {
+  margin-top: 25px;
+}
