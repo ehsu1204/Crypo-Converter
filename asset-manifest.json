@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Crypo-Converter/static/css/main.bcbe0ddc.css",
+    "main.js": "/Crypo-Converter/static/js/main.3ac226f1.js",
+    "index.html": "/Crypo-Converter/index.html",
+    "main.bcbe0ddc.css.map": "/Crypo-Converter/static/css/main.bcbe0ddc.css.map",
+    "main.3ac226f1.js.map": "/Crypo-Converter/static/js/main.3ac226f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcbe0ddc.css",
+    "static/js/main.3ac226f1.js"
+  ]
+}
